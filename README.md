@@ -28,4 +28,28 @@ The WebChat example runs an NodeJS-based web server on Port 3000.  This
 GitHub project walks you through the steps needed to place an Apache
 Web Server running over https in front of this.
 
+The Walk-through has been broken down into various phases, each one
+serving as a useful checkpoint to ensure things are working out
+according to plan.
+
+  * First we get a VM up and running.
+  * Then we setup and access the NodeJS web server directly over port 3000
+(which requires the VM to have a firewall rule added to open
+up that port).
+  * Next we add in a front-facing Apache web server running over
+  _http_ (which means we don't need port 3000 left open)
+  * Finally, we upgrade the Apache web server so it operates
+  over htttps (which means we can close port 80 used by _http_)
+
+
+The first 3 steps can be done using the IP of the GCE Virtual Machine that
+has been created.  To undertake the final step, you need to have
+administration rights to a web domain where you can set up a DNS entry that
+maps the IP number of the GCE Virtual Machine into your web domain name.
+Having a qualified web domain name for your VM is a requirement for being
+issued an SSL certificate.
+
+The first step of the Walk-through is detailed in:
+
+  * 01-Baseline-GCE-VM.md
 
