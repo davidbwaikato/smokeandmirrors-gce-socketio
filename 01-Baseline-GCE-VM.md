@@ -52,8 +52,7 @@ personal within your organization to see if the setting can be changed.
   * Click on 'EDIT' in top nav bar
   * Change Boot Disk from:
      + Delete Disk => Keep Disk
-     
-  __Save__
+  * __Save__
 
 ## Start the VM
 
