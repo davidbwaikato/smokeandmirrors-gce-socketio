@@ -51,5 +51,5 @@ issued an SSL certificate.
 
 The first step of the Walk-through is detailed in:
 
-  * [01-Baseline-GCE-VM.md]
+  * [01-Baseline-GCE-VM.md](./01-Baseline-GCE-VM.md)
 
