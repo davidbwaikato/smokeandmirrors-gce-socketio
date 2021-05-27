@@ -91,10 +91,12 @@
 ## Next Stage
 
   For some of you following this walk-through this might very well be the
-  logical place to stop.  In the next stage we upgrade the Apache2 web
-  server so it operates over _https_ rather than _http_, using the SSL
+  logical place to stop.  In the next stage we upgrade the Apache2
+  web-server so it operates over _https_ rather than _http_, using the SSL
   certificate granting agency Let's Encrypt.  To successfully undertake
   this stage, however, you need to have DNS administration rights for a web
-  domain.  This is so you can register the IP number of the GCE VM
-  as being part of a registered domain, a requirement for
-  Let's Encrypt to issue an SSL certificate.
+  domain.  This is so you can register the IP number of the GCE VM as being
+  part of a registered domain, a requirement for Let's Encrypt to issue an
+  SSL certificate.
+
+  * [04-Apache-Reverse-Proxy-HTTPS.md](./04-Apache-Reverse-Proxy-HTTPS.md)
