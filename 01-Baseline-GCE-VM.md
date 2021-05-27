@@ -33,7 +33,7 @@ personal within your organization to see if the setting can be changed.
     + But change its disk size increased from 10G to 15G
   * __Create__
 
-## Make its external IP static:
+## Make its external IP address static:
 
   From the Main Navigation Menu:
   * VPC network -> External IP Address
@@ -44,6 +44,16 @@ personal within your organization to see if the setting can be changed.
     * To "Reserve a new static IP address" you will be asked to name it
     * Keep the same name as the VM: _web-chat_
 
+  Note down somewhere handy the IP address that has been allocated for your
+  VM, we are going to need it in later phases of this walk-through.
+
+  To help simplify our instructions later on, we are going to use
+  the following placeholder for this:
+```  
+  111.222.333.444
+```
+
+  
 ## Set VM so disk not deleted when VM deleted:
 
   Main Navigation Menu -> Compute Engine -> VM Instances

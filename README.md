@@ -42,12 +42,12 @@ up that port).
   over htttps (which means we can close port 80 used by _http_)
 
 
-The first 3 steps can be done using the IP of the GCE Virtual Machine that
-has been created.  To undertake the final step, you need to have
-administration rights to a web domain where you can set up a DNS entry that
-maps the IP number of the GCE Virtual Machine into your web domain name.
-Having a qualified web domain name for your VM is a requirement for being
-issued an SSL certificate.
+The first 3 steps can be done using the IP address of the GCE Virtual
+Machine that has been created.  To undertake the final step, you need to
+have administration rights to a web domain where you can set up a DNS entry
+that maps the IP address of the GCE Virtual Machine into your web domain
+name.  Having a qualified web domain name for your VM is a requirement for
+being issued an SSL certificate.
 
 The first step of the Walk-through is detailed in:
 
