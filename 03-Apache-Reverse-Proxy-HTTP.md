@@ -18,7 +18,7 @@
   sudo apt-get install apache2
 ```
 
-  Back in the Google Cloud Platform dashboard, selct:
+  Back in the Google Cloud Platform dashboard, select:
   * Main Navigation Menu -> Compute Engine -> VM Instances
   * Click on the _web-chat_ VM
   * Click on 'Edit' in the top navigation bar
