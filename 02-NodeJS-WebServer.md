@@ -1,4 +1,4 @@
-# Installing and Running a NodeJS Web Server 
+# Installing and Running a NodeJS Web-Server 
 
 For this phase of the walk-through, we assume you are logged into the VM in
 a terminal window and have a copy of the project checked out as the
@@ -42,13 +42,13 @@ Below we use the following placeholder for this:
   * sudo apt-get install npm
 
 
-## Hello World Web Server with NodeJS (Part I)
+## Hello World Web-Server with NodeJS (Part I)
 
   We're now ready to start working through the WebChat example
   detailed on the [Socket.IO web site](https://socket.io/get-started/chat).
-  This uses the NodeJS package Express to run a web server.  The example
+  This uses the NodeJS package Express to run a web-server.  The example
   then adds in Web Sockets.  For now we're interested in running a
-  basic Express web server, displaying a web page that says _Hello world_
+  basic Express web-server, displaying a web page that says _Hello world_
 
   In the terminal, first _cd_ into the project directory:
 ```
@@ -64,7 +64,7 @@ Below we use the following placeholder for this:
 
   At this point in the Socket.IO Getting Started example, they run the
   server and test it, by running the command `node index.js`, which runs
-  the simple _Hello world_ web server on port 3000.  We want to do the
+  the simple _Hello world_ web-server on port 3000.  We want to do the
   same, but because we are doing this remotely on a VM, we need to first
   set up a Firewall rule that allows access to port 3000.
   
@@ -99,9 +99,9 @@ Below we use the following placeholder for this:
   * __Save__
 
 
-## Hello World Web Server with NodeJS (Part II)
+## Hello World Web-Server with NodeJS (Part II)
 
-  We're now ready to connect to the NodeJS-based Express web server.
+  We're now ready to connect to the NodeJS-based Express web-server.
 
   Back in the terminal for the VM enter:
 ```
@@ -119,3 +119,11 @@ Below we use the following placeholder for this:
   Note: that at this stage, the URL entered needs to be prefixed with
    __http__.  In some browsers, skipping this means it defaults to
    trying _https_, which will then fails.
+
+## Next Stage
+
+  The next stage is to install the Apache2 Http Web-Server and configure it
+  to be the Public Facing Front-end to the NodeJS Express Web-Server:
+
+
+  * [03-Apache-Reverse-Proxy-HTTP.md](./03-Apache-Reverse-Proxy-HTTP.md)

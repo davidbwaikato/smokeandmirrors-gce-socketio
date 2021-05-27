@@ -99,9 +99,9 @@ personal within your organization to see if the setting can be changed.
   git clone https://github.com/davidbwaikato/smokeandmirrors-gce-socketio.git web-chat
 ```
 
-## Next Step
+## Next Stage
 
-The next step is to install and run a NodeJS web server running over
+The next stage is to install and run a NodeJS web-server running over
 http on port 3000, which you will access in the first instance directly.
 
   * [02-NodeJS-WebServer.md](./02-NodeJS-WebServer.md)
