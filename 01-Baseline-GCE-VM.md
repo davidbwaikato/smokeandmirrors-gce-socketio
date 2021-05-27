@@ -94,6 +94,12 @@ personal within your organization to see if the setting can be changed.
   As a final bit of preparation work, let's check out this GitHub
   repository on the VM
 
+  We first need to install the `git` command-line tool:
+```
+  sudo apt-get install git
+```
+
+  Then we can clone (check out) the project:
 ```
   cd ~/.
   git clone https://github.com/davidbwaikato/smokeandmirrors-gce-socketio.git web-chat
