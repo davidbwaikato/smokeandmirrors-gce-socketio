@@ -42,9 +42,10 @@ name(s) (comma and/or space separated)  (Enter 'c' to cancel):
   webchat.mydomain.com
 ```
 
-  This has made a new file in the Apache2 config file area:
+  The result of running the `certbot` command is that it has made a new
+file in the Apache2 config file area:
 ```
-  /etc/apache2/sites-enabled/000-default-le-ssl.conf
+/etc/apache2/sites-enabled/000-default-le-ssl.conf
 
 ```
   which is very similar to your `000-default.conf` except it has additional
