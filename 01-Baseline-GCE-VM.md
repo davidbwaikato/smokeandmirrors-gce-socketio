@@ -104,5 +104,5 @@ personal within your organization to see if the setting can be changed.
 The next step is to install and run a NodeJS web server running over
 http on port 3000, which you will access in the first instance directly.
 
-  * [02-NodeJS-WebServer.js](./02-NodeJS-WebServer.js)
+  * [02-NodeJS-WebServer.md](./02-NodeJS-WebServer.md)
 
