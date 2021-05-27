@@ -79,6 +79,18 @@ personal within your organization to see if the setting can be changed.
   * _date_
 
 
+### Checking out the Project Files
+
+  As a final bit of preparation work, let's check out this GitHub
+  repository on the VM
+
+```
+  cd ~/.
+  git clone https://github.com/davidbwaikato/smokeandmirrors-gce-socketio.git web-chat
+```
+
+## Next Step
+
 The next step is to install and run a NodeJS web server running over
 http on port 3000, which you will access in the first instance directly.
 
