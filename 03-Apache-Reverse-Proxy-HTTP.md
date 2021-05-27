@@ -72,6 +72,21 @@
 
   It should display the _Hello world_ page as before.
 
+## Firewall Tidy up
+
+  Now we have access via Apache2 to the NodeJS Express web server, we
+  no longer need the Firewall rule that open up port 3000.  There are
+  a couple of ways to go about this.  You could:
+  * Remove the Network Tag from the VM
+    + Main Navigation Menu -> Compute Engine -> VM Instances
+    + Select the VM
+    + Click on 'Edit' in the top navigation bar
+    + Remove `web-chat` from the _Network tags_
+  Or:
+  * Remove the Firewall rule
+    + Main Navigation Menu -> VPC network -> Firewall
+    + Check-box select `hey-you` and then click on the Delete trash can in
+      the top navigation bar.
 
 ## Next Stage
 
