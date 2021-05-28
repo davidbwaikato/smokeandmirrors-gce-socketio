@@ -39,3 +39,19 @@ RewriteRule ^/?(.*) "ws://localhost:3000/$1" [P,L]
   sudo systemctl restart apache2
 ```
 
+  Previously, to run our _Hello world_ NodeJS Express-based server we using
+  `index.js` (which in turn references `index.html`).  In the Getting
+  Started guide at Socket.IO, then go through a sequences of changes
+  to this file.  Rather than do that, in our GitHub repository we have
+  made availabe the result of that updating work using a slightly
+  different filename: `index-ws.js` (representing it makes use of Web
+  Sockets), along with the accompanying file `index-ws.html`.  The
+  HTML file has also been adjusted to work with the `/web-chat/`
+  URL prefix, needed with the _<script>_ tag includes the _socket.io.js_
+  file.
+
+  To run the Web Socket version, enter:
+```  
+  node index-ws.js
+```
+
