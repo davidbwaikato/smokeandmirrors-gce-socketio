@@ -100,8 +100,21 @@ file in the Apache2 config file area:
 
   Now visit:
 ```
-    https://webchat.mydomain.com/webchat/
+    https://webchat.mydomain.com/web-chat/
 ```
 
+  Remember, you'll need to have your NodeJS-based Express web server running for
+  the external https link to server up the _Hello world_ page:
+```
+  node index.js
+```
 
+## Next Stage
+
+  At present the name of our Node JS project, _web-chat_, is a bit of a misnomer
+  given that all it does is display a static page with the text _Hello world_
+  on it.  In the next stage we progress to running this as the complete
+  web-chat example:
+
+  * [05-NodeJS-Web-Chat-Through-Apache2.md](./05-NodeJS-Web-Chat-Through-Apache2.md)
 
