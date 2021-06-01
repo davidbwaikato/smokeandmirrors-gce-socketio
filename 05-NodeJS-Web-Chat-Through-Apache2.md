@@ -18,7 +18,17 @@
   
 ## Setting up Web Chat to be scoped to have a URL prefix
 
-  In a text editor with admin rights, open your Apache2 configuration file for https
+  First, in the `web-chat` directory, install the `socket.io` NodeJS package:
+```
+  npm install socket.io
+```  
+
+  Next, activate proxy tunneling for web-sockets:
+```
+  sudo a2enmod proxy_wstunnel
+```
+
+  Then, in a text editor with admin rights, open your Apache2 configuration file for https
   settings.  For example:
 ```
   sudo emacs /etc/apache2/sites-enabled/000-default-le-ssl.conf
